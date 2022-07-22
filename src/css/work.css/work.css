@@ -1,0 +1,69 @@
+.work {
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 134px 0 127px;
+}
+.work .owl-theme .owl-nav {
+  margin-top: 0;
+  position: absolute;
+  top: 50%;
+  width: 100%;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+  left: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+.work.customNextBtn {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 40px;
+  height: 75px;
+  background: url("../image/work/vec1.png");
+}
+.work.customPrevBtn {
+  width: 40px;
+  height: 75px;
+  background: url("../image/work/vec2.png");
+}
+.work__title {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 50px;
+  line-height: 55px;
+  text-align: center;
+  letter-spacing: 1.65px;
+  color: #36b8bf;
+  margin-bottom: 66px;
+}
+.work .how-slider__title {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 22px;
+  /* identical to box height, or 110% */
+  text-align: center;
+  letter-spacing: 0.66px;
+  color: #08090a;
+  margin-bottom: 15px;
+}
+.work .how-slider__subtitle {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 27px;
+  /* or 150% */
+  text-align: center;
+  letter-spacing: 0.36px;
+  color: #546285;
+  margin-top: 15px;
+}
+.work .how-slider__image {
+  -o-object-fit: cover;
+     object-fit: cover;
+  margin-right: 50px;
+  margin-bottom: 48px;
+}

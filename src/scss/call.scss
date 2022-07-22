@@ -1,0 +1,41 @@
+.call{
+    padding: 140px 0 140px;
+    background: url('../image/about/Content.png')center/cover;
+    &__bg{
+        background: url('../image/about/yum.png') center/cover;
+    }
+    &__title{
+        font-style: normal;
+font-weight: normal;
+font-size: 55px;
+line-height: 55px;
+/* or 100% */
+
+letter-spacing: 1.65px;
+
+color: #35B8BE;
+margin-bottom: 29px;
+    }
+&__subtitle{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 27px;
+    letter-spacing: 0.36px;
+    color: #546285;
+    margin-bottom: 47px;
+}
+&__btn{
+    width: 225px;
+    height: 60px;
+    background: #35B8BE;
+border-radius: 6px;
+font-style: normal;
+font-weight: normal;
+font-size: 18px;
+line-height: 20px;
+text-align: center;
+color: #FFFFFF;
+border: none;
+}
+}
