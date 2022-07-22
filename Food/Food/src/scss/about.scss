@@ -1,0 +1,58 @@
+.about {
+    padding: 140px 0 140px;
+    background: url('../image/about/yum.png') top 140px left 120px/580px 615px no-repeat,
+        url('../image/about/Content.png') center/cover no-repeat;
+        &__imge{
+            width: 100%;
+            object-fit: cover;
+        }
+    &__title {
+        padding-top: 150px;
+        margin-top: 150px;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 50px;
+        line-height: 55px;
+        /* identical to box height , or 110% */
+
+        letter-spacing: 1.65px;
+
+        color: #35b8be;
+        margin-bottom: 29px;
+    }
+
+    &__text {
+        font-style: normal;
+        font-weight: normal;
+        font-size: 18px;
+        line-height: 27px;
+        letter-spacing: 0.36px;
+        color: #546285;
+        margin-bottom: 47px;
+    }
+    &__link{
+        font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 19px;
+text-decoration-line: underline;
+
+color: #6035BC;
+    }
+    &__btn {
+        font-style: normal;
+        font-weight: normal;
+        font-size: 17px;
+        line-height: 20px;
+        text-align: center;
+        padding: 20px 35px;
+        color: #ffffff;
+        background: #35b8be;
+        border-radius: 6px;
+        border: none;
+        margin-bottom: 40px;
+        &:hover {
+            color: blue;
+        }
+    }
+}

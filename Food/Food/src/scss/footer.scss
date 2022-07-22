@@ -1,0 +1,66 @@
+.footer{
+    background: url('../image/f.png')center/cover;
+    padding: 100px 0 60px;
+    &__imag{
+        display: block;
+        margin-bottom: 25px;
+    }
+    &__text{
+        font-style: normal;
+font-weight: normal;
+font-size: 15px;
+line-height: 27px;
+letter-spacing: 0.36px;
+color: #546285;
+margin-bottom: 278px;
+    }
+    &__foot{
+        font-style: normal;
+font-weight: normal;
+font-size: 15px;
+line-height: 20px;
+color: #353448;
+ margin-top: 70px;
+    }
+    &__title{
+        font-style: normal;
+font-weight: normal;
+font-size: 13px;
+line-height: 20px;
+letter-spacing: 1.5px;
+text-transform: uppercase;
+color: #08090A;
+margin-bottom: 28px;
+    }
+    &__link{
+        display: block;
+        font-style: normal;
+font-weight: normal;
+font-size: 15px;
+line-height: 20px;
+color: #546285;
+margin-bottom: 28px;
+text-decoration: none;
+
+    }
+    &__display{
+        display: flex;
+        justify-content: space-between;
+      
+    }
+    &__posice{
+        display:flex;
+        width: 192px;
+        height: 40px;
+        &__link{
+        margin-right: 24px;
+    }
+        transition: 0.4s all; 
+        &:hover{
+            transform: rotate(360deg);
+            &:last-child{
+                margin-right: 0;
+        }
+        }
+    }
+}
